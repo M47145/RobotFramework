@@ -1,5 +1,5 @@
 # Robot Framework Training
-
+# TÄMÄ ON OMA TEKSTIN LISÄYS!!
 Setup for running Tricentis Testautomation Obstacle Course with Robot Framework.<br>
 [Tricentis site](https://obstaclecourse.tricentis.com/)<br>
 
