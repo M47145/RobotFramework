@@ -1,9 +1,10 @@
+*** Settings ***
 Library           SeleniumLibrary   run_on_failure=Nothing
 
 *** Variables ***
 ${SERVER}         https://www.saucedemo.com/
 ${BROWSER}        Firefox
-${DRIVER}         rf-env/WebDriverManager/geckodriver.exe
+${DRIVER}         venv/WebDriverManager/geckodriver
 ${DELAY}          0
 
 *** Test Cases ***
@@ -23,6 +24,7 @@ TEST
 
 Prepare Browser
     Open Browser    ${SERVER}    ${BROWSER}   executable_path=${DRIVER}
+    Maximize Browser Window
     Set Selenium Speed    ${DELAY}
 
 Login

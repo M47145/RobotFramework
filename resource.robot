@@ -3,8 +3,8 @@ Library           SeleniumLibrary   run_on_failure=Nothing
 
 *** Variables ***
 ${SERVER}         https://obstaclecourse.tricentis.com/Obstacles/
-${BROWSER}        Chrome
-${DRIVER}         rf-env/WebDriverManager/chrome/86.0.4240.22/chromedriver_win32/chromedriver.exe
+${BROWSER}        Firefox
+${DRIVER}         venv/WebDriverManager/geckodriver
 ${DELAY}          0
 
 *** Keywords ***
